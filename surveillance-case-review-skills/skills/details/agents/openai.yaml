@@ -1,0 +1,4 @@
+interface:
+  display_name: "details"
+  short_description: "Inspect evidence behind a surveillance case"
+  default_prompt: "Use $details to examine evidence for CASE-0088C625."

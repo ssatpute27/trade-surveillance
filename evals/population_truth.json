@@ -1,0 +1,1765 @@
+{
+  "seed": 1042,
+  "episodes": [
+    {
+      "family": "spoofing_layering",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000001",
+        "O-0000002",
+        "O-0000003",
+        "O-0000004",
+        "O-0000005",
+        "O-0000006",
+        "O-0000007",
+        "O-0000008",
+        "O-0000009",
+        "O-0000010",
+        "O-0000011",
+        "O-0000012"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000001"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2068"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000013",
+        "O-0000014",
+        "O-0000015",
+        "O-0000016",
+        "O-0000017",
+        "O-0000018",
+        "O-0000019",
+        "O-0000020",
+        "O-0000021",
+        "O-0000022",
+        "O-0000023",
+        "O-0000024"
+      ],
+      "account_id": "A-02",
+      "evidence_ids": [
+        "E-000002"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2069"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000025",
+        "O-0000026",
+        "O-0000027",
+        "O-0000028",
+        "O-0000029",
+        "O-0000030",
+        "O-0000031",
+        "O-0000032",
+        "O-0000033",
+        "O-0000034",
+        "O-0000035",
+        "O-0000036"
+      ],
+      "account_id": "A-03",
+      "evidence_ids": [
+        "E-000003"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2070"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000037",
+        "O-0000038",
+        "O-0000039",
+        "O-0000040",
+        "O-0000041",
+        "O-0000042",
+        "O-0000043",
+        "O-0000044",
+        "O-0000045",
+        "O-0000046",
+        "O-0000047",
+        "O-0000048"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000004"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2071"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000049",
+        "O-0000050",
+        "O-0000051",
+        "O-0000052",
+        "O-0000053",
+        "O-0000054",
+        "O-0000055",
+        "O-0000056",
+        "O-0000057",
+        "O-0000058",
+        "O-0000059",
+        "O-0000060"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000005"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2072"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000061",
+        "O-0000062",
+        "O-0000063",
+        "O-0000064",
+        "O-0000065",
+        "O-0000066",
+        "O-0000067",
+        "O-0000068",
+        "O-0000069",
+        "O-0000070",
+        "O-0000071",
+        "O-0000072"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000006"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2073"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000073",
+        "O-0000074",
+        "O-0000075",
+        "O-0000076",
+        "O-0000077",
+        "O-0000078",
+        "O-0000079",
+        "O-0000080",
+        "O-0000081",
+        "O-0000082",
+        "O-0000083",
+        "O-0000084"
+      ],
+      "account_id": "A-07",
+      "evidence_ids": [
+        "E-000007"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2074"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000085",
+        "O-0000086",
+        "O-0000087",
+        "O-0000088",
+        "O-0000089",
+        "O-0000090",
+        "O-0000091",
+        "O-0000092",
+        "O-0000093",
+        "O-0000094",
+        "O-0000095",
+        "O-0000096"
+      ],
+      "account_id": "A-08",
+      "evidence_ids": [
+        "E-000008"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2075"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000097",
+        "O-0000098",
+        "O-0000099",
+        "O-0000100",
+        "O-0000101",
+        "O-0000102",
+        "O-0000103",
+        "O-0000104",
+        "O-0000105",
+        "O-0000106",
+        "O-0000107",
+        "O-0000108"
+      ],
+      "account_id": "A-09",
+      "evidence_ids": [
+        "E-000009"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2076"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000109",
+        "O-0000110",
+        "O-0000111",
+        "O-0000112",
+        "O-0000113",
+        "O-0000114",
+        "O-0000115",
+        "O-0000116",
+        "O-0000117",
+        "O-0000118",
+        "O-0000119",
+        "O-0000120"
+      ],
+      "account_id": "A-10",
+      "evidence_ids": [
+        "E-000010"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2077"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000121",
+        "O-0000122",
+        "O-0000123",
+        "O-0000124",
+        "O-0000125",
+        "O-0000126",
+        "O-0000127",
+        "O-0000128",
+        "O-0000129",
+        "O-0000130",
+        "O-0000131",
+        "O-0000132"
+      ],
+      "account_id": "A-11",
+      "evidence_ids": [
+        "E-000011"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2078"
+      ]
+    },
+    {
+      "family": "spoofing_layering",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000133",
+        "O-0000134",
+        "O-0000135",
+        "O-0000136",
+        "O-0000137",
+        "O-0000138",
+        "O-0000139",
+        "O-0000140",
+        "O-0000141",
+        "O-0000142",
+        "O-0000143",
+        "O-0000144"
+      ],
+      "account_id": "A-12",
+      "evidence_ids": [
+        "E-000012"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2079"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000145"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000013",
+        "E-000014",
+        "E-000015",
+        "E-000016",
+        "E-000017"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2043"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000146"
+      ],
+      "account_id": "A-02",
+      "evidence_ids": [
+        "E-000018",
+        "E-000019",
+        "E-000020",
+        "E-000021"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2051"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000147"
+      ],
+      "account_id": "A-03",
+      "evidence_ids": [
+        "E-000022",
+        "E-000023",
+        "E-000024"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2060"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000148"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000025",
+        "E-000026",
+        "E-000027",
+        "E-000028",
+        "E-000029"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2045"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000149"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000030",
+        "E-000031",
+        "E-000032",
+        "E-000033"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2054"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000150"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000034",
+        "E-000035",
+        "E-000036"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2062"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000151"
+      ],
+      "account_id": "A-07",
+      "evidence_ids": [
+        "E-000037",
+        "E-000038",
+        "E-000039",
+        "E-000040",
+        "E-000041"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2047"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000152"
+      ],
+      "account_id": "A-08",
+      "evidence_ids": [
+        "E-000042",
+        "E-000043",
+        "E-000044",
+        "E-000045"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2056"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000153"
+      ],
+      "account_id": "A-09",
+      "evidence_ids": [
+        "E-000046",
+        "E-000047",
+        "E-000048"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2064"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000154"
+      ],
+      "account_id": "A-10",
+      "evidence_ids": [
+        "E-000049",
+        "E-000050",
+        "E-000051",
+        "E-000052",
+        "E-000053"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2049"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000155"
+      ],
+      "account_id": "A-11",
+      "evidence_ids": [
+        "E-000054",
+        "E-000055",
+        "E-000056",
+        "E-000057"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2058"
+      ]
+    },
+    {
+      "family": "pre_announcement",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000156"
+      ],
+      "account_id": "A-12",
+      "evidence_ids": [
+        "E-000058",
+        "E-000059",
+        "E-000060"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2066"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000157",
+        "O-0000158"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000061"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2080"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000159",
+        "O-0000160"
+      ],
+      "account_id": "A-02",
+      "evidence_ids": [
+        "E-000062"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2081"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000161",
+        "O-0000162"
+      ],
+      "account_id": "A-03",
+      "evidence_ids": [
+        "E-000063"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2082"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000163",
+        "O-0000164"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000064"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2083"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000165",
+        "O-0000166"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000065"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2084"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000167",
+        "O-0000168"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000066"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2085"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000169",
+        "O-0000170"
+      ],
+      "account_id": "A-07",
+      "evidence_ids": [
+        "E-000067"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2086"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000171",
+        "O-0000172"
+      ],
+      "account_id": "A-08",
+      "evidence_ids": [
+        "E-000068"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2087"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000173",
+        "O-0000174"
+      ],
+      "account_id": "A-09",
+      "evidence_ids": [
+        "E-000069"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2088"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000175",
+        "O-0000176"
+      ],
+      "account_id": "A-10",
+      "evidence_ids": [
+        "E-000070"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2089"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000177",
+        "O-0000178"
+      ],
+      "account_id": "A-11",
+      "evidence_ids": [
+        "E-000071"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2090"
+      ]
+    },
+    {
+      "family": "front_running",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000179",
+        "O-0000180"
+      ],
+      "account_id": "A-12",
+      "evidence_ids": [
+        "E-000072"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2091"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000181",
+        "O-0000182",
+        "O-0000183",
+        "O-0000184",
+        "O-0000185",
+        "O-0000186"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000073"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2093"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000187",
+        "O-0000188",
+        "O-0000189",
+        "O-0000190",
+        "O-0000191",
+        "O-0000192"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000074"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2094"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000193",
+        "O-0000194",
+        "O-0000195",
+        "O-0000196",
+        "O-0000197",
+        "O-0000198"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000075"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2095"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000199",
+        "O-0000200",
+        "O-0000201",
+        "O-0000202",
+        "O-0000203",
+        "O-0000204"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000076"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2096"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000205",
+        "O-0000206",
+        "O-0000207",
+        "O-0000208",
+        "O-0000209",
+        "O-0000210"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000077"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2097"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000211",
+        "O-0000212",
+        "O-0000213",
+        "O-0000214",
+        "O-0000215",
+        "O-0000216"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000078"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2098"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000217",
+        "O-0000218",
+        "O-0000219",
+        "O-0000220",
+        "O-0000221",
+        "O-0000222"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000079"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2099"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000223",
+        "O-0000224",
+        "O-0000225",
+        "O-0000226",
+        "O-0000227",
+        "O-0000228"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000080"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2100"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000229",
+        "O-0000230",
+        "O-0000231",
+        "O-0000232",
+        "O-0000233",
+        "O-0000234"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000081"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2101"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000235",
+        "O-0000236",
+        "O-0000237",
+        "O-0000238",
+        "O-0000239",
+        "O-0000240"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000082"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2102"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000241",
+        "O-0000242",
+        "O-0000243",
+        "O-0000244",
+        "O-0000245",
+        "O-0000246"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000083"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2103"
+      ]
+    },
+    {
+      "family": "wash_self_trade",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000247",
+        "O-0000248",
+        "O-0000249",
+        "O-0000250",
+        "O-0000251",
+        "O-0000252"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000084"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2104"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000253"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000085"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2117"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000254"
+      ],
+      "account_id": "A-02",
+      "evidence_ids": [
+        "E-000086",
+        "E-000087"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2118"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000255"
+      ],
+      "account_id": "A-03",
+      "evidence_ids": [
+        "E-000088"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2119"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000256"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000089"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2120"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000257"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000090",
+        "E-000091"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2121"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000258"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000092"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2122"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000259"
+      ],
+      "account_id": "A-07",
+      "evidence_ids": [
+        "E-000093"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2123"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000260"
+      ],
+      "account_id": "A-08",
+      "evidence_ids": [
+        "E-000094",
+        "E-000095"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2124"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000261"
+      ],
+      "account_id": "A-09",
+      "evidence_ids": [
+        "E-000096"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2125"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000262"
+      ],
+      "account_id": "A-10",
+      "evidence_ids": [
+        "E-000097"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2126"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000263"
+      ],
+      "account_id": "A-11",
+      "evidence_ids": [
+        "E-000098",
+        "E-000099"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2127"
+      ]
+    },
+    {
+      "family": "marking_close",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000264"
+      ],
+      "account_id": "A-12",
+      "evidence_ids": [
+        "E-000100"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2128"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000265",
+        "O-0000266",
+        "O-0000267",
+        "O-0000268",
+        "O-0000269",
+        "O-0000270"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000101"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2105"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000271",
+        "O-0000272",
+        "O-0000273",
+        "O-0000274",
+        "O-0000275",
+        "O-0000276"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000102"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2106"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000277",
+        "O-0000278",
+        "O-0000279",
+        "O-0000280",
+        "O-0000281",
+        "O-0000282"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000103"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2107"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000283",
+        "O-0000284",
+        "O-0000285",
+        "O-0000286",
+        "O-0000287",
+        "O-0000288"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000104"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2108"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000289",
+        "O-0000290",
+        "O-0000291",
+        "O-0000292",
+        "O-0000293",
+        "O-0000294"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000105"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2109"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000295",
+        "O-0000296",
+        "O-0000297",
+        "O-0000298",
+        "O-0000299",
+        "O-0000300"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000106"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2110"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000301",
+        "O-0000302",
+        "O-0000303",
+        "O-0000304",
+        "O-0000305",
+        "O-0000306"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000107"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2111"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000307",
+        "O-0000308",
+        "O-0000309",
+        "O-0000310",
+        "O-0000311",
+        "O-0000312"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000108"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2112"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000313",
+        "O-0000314",
+        "O-0000315",
+        "O-0000316",
+        "O-0000317",
+        "O-0000318"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000109"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2113"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000319",
+        "O-0000320",
+        "O-0000321",
+        "O-0000322",
+        "O-0000323",
+        "O-0000324"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000110"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2114"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000325",
+        "O-0000326",
+        "O-0000327",
+        "O-0000328",
+        "O-0000329",
+        "O-0000330"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000111"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2115"
+      ]
+    },
+    {
+      "family": "coordinated_trading",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000331",
+        "O-0000332",
+        "O-0000333",
+        "O-0000334",
+        "O-0000335",
+        "O-0000336"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000112"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2116"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000337"
+      ],
+      "account_id": "A-01",
+      "evidence_ids": [
+        "E-000113"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2004"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000338"
+      ],
+      "account_id": "A-02",
+      "evidence_ids": [
+        "E-000114",
+        "E-000115"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2007"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000339"
+      ],
+      "account_id": "A-03",
+      "evidence_ids": [
+        "E-000116"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2010"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000340"
+      ],
+      "account_id": "A-04",
+      "evidence_ids": [
+        "E-000117"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2013"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000341"
+      ],
+      "account_id": "A-05",
+      "evidence_ids": [
+        "E-000118",
+        "E-000119"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2017"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000342"
+      ],
+      "account_id": "A-06",
+      "evidence_ids": [
+        "E-000120"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2020"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000343"
+      ],
+      "account_id": "A-07",
+      "evidence_ids": [
+        "E-000121"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2023"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000344"
+      ],
+      "account_id": "A-08",
+      "evidence_ids": [
+        "E-000122",
+        "E-000123"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2026"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000345"
+      ],
+      "account_id": "A-09",
+      "evidence_ids": [
+        "E-000124"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2029"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000346"
+      ],
+      "account_id": "A-10",
+      "evidence_ids": [
+        "E-000125"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2032"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000347"
+      ],
+      "account_id": "A-11",
+      "evidence_ids": [
+        "E-000126",
+        "E-000127"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2035"
+      ]
+    },
+    {
+      "family": "size_outlier",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000348"
+      ],
+      "account_id": "A-12",
+      "evidence_ids": [
+        "E-000128"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2038"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000349"
+      ],
+      "account_id": "A-29",
+      "evidence_ids": [
+        "E-000129",
+        "E-000130"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2129"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000350"
+      ],
+      "account_id": "A-30",
+      "evidence_ids": [
+        "E-000131",
+        "E-000132"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2130"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000351"
+      ],
+      "account_id": "A-31",
+      "evidence_ids": [
+        "E-000133",
+        "E-000134"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2131"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000352"
+      ],
+      "account_id": "A-32",
+      "evidence_ids": [
+        "E-000135",
+        "E-000136"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2132"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000353"
+      ],
+      "account_id": "A-33",
+      "evidence_ids": [
+        "E-000137",
+        "E-000138"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2133"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000354"
+      ],
+      "account_id": "A-34",
+      "evidence_ids": [
+        "E-000139",
+        "E-000140"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2134"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000355"
+      ],
+      "account_id": "A-35",
+      "evidence_ids": [
+        "E-000141",
+        "E-000142"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2135"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000356"
+      ],
+      "account_id": "A-36",
+      "evidence_ids": [
+        "E-000143",
+        "E-000144"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2136"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000357"
+      ],
+      "account_id": "A-37",
+      "evidence_ids": [
+        "E-000145",
+        "E-000146"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2137"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "concerning",
+      "order_ids": [
+        "O-0000358"
+      ],
+      "account_id": "A-38",
+      "evidence_ids": [
+        "E-000147",
+        "E-000148"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2138"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "plausibly_explained",
+      "order_ids": [
+        "O-0000359"
+      ],
+      "account_id": "A-39",
+      "evidence_ids": [
+        "E-000149",
+        "E-000150"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2139"
+      ]
+    },
+    {
+      "family": "authorization_restriction",
+      "variant": "inconclusive",
+      "order_ids": [
+        "O-0000360"
+      ],
+      "account_id": "A-40",
+      "evidence_ids": [
+        "E-000151",
+        "E-000152"
+      ],
+      "grading_note": "Expected investigative route, not a legal finding. Escalation requires calibrated language and human review.",
+      "detected_alert_ids": [
+        "TS-2140"
+      ]
+    }
+  ]
+}

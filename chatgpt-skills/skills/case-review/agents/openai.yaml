@@ -1,0 +1,4 @@
+interface:
+  display_name: "case-review"
+  short_description: "Review a case briefly, then explore or decide"
+  default_prompt: "Use $case-review to summarize CASE-0088C625 briefly."

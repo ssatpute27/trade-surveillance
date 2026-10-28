@@ -1,0 +1,7 @@
+security_id,symbol,issuer,sector,liquidity_tier
+S-01,NVDA,NVIDIA Corporation,Technology,high
+S-02,AAPL,Apple Inc.,Technology,high
+S-03,MSFT,Microsoft Corporation,Technology,high
+S-04,AMZN,"Amazon.com, Inc.",Consumer Discretionary,high
+S-05,JPM,JPMorgan Chase & Co.,Financials,high
+S-06,XOM,ExxonMobil Holdings Corporation,Energy,high

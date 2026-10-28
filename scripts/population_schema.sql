@@ -1,0 +1,16 @@
+ALTER TABLE orders ADD COLUMN order_type TEXT NOT NULL DEFAULT 'limit' CHECK(order_type IN ('market','limit'));
+ALTER TABLE orders ADD COLUMN execution_strategy TEXT NOT NULL DEFAULT 'manual' CHECK(execution_strategy IN ('manual','VWAP','TWAP','participation'));
+ALTER TABLE orders ADD COLUMN price_limit_role TEXT NOT NULL DEFAULT 'order_limit' CHECK(price_limit_role IN ('order_limit','internal_protection'));
+CREATE INDEX events_by_order_time ON order_events(order_id,event_at);
+CREATE TABLE opening_positions(account_id TEXT NOT NULL REFERENCES accounts, security_id TEXT NOT NULL REFERENCES securities, quantity INTEGER NOT NULL CHECK(quantity>=0), as_of TEXT NOT NULL, PRIMARY KEY(account_id,security_id));
+CREATE TABLE account_ownership(account_id TEXT PRIMARY KEY REFERENCES accounts, controller_id TEXT NOT NULL, beneficial_owner_id TEXT NOT NULL, valid_from TEXT NOT NULL, valid_to TEXT);
+CREATE TABLE venue_orders(venue_order_id TEXT PRIMARY KEY, parent_order_id TEXT NOT NULL REFERENCES orders, venue_id TEXT NOT NULL, submitted_at TEXT NOT NULL, accepted_at TEXT NOT NULL, cancelled_at TEXT, side TEXT NOT NULL CHECK(side IN ('buy','sell')), price_cents INTEGER NOT NULL CHECK(price_cents>0), displayed_quantity INTEGER NOT NULL CHECK(displayed_quantity>0), executed_quantity INTEGER NOT NULL CHECK(executed_quantity>=0 AND executed_quantity<=displayed_quantity));
+CREATE INDEX venue_by_parent ON venue_orders(parent_order_id,submitted_at);
+CREATE TABLE book_snapshots(snapshot_id TEXT PRIMARY KEY, security_id TEXT NOT NULL REFERENCES securities, snapshot_at TEXT NOT NULL, venue_id TEXT NOT NULL, bid_price_cents INTEGER NOT NULL, bid_size INTEGER NOT NULL CHECK(bid_size>0), ask_price_cents INTEGER NOT NULL, ask_size INTEGER NOT NULL CHECK(ask_size>0), CHECK(ask_price_cents>bid_price_cents));
+CREATE INDEX book_by_security_time ON book_snapshots(security_id,snapshot_at);
+CREATE TABLE customer_instructions(instruction_id TEXT PRIMARY KEY, order_id TEXT NOT NULL REFERENCES orders, received_at TEXT NOT NULL, signed_at TEXT, channel TEXT NOT NULL, source_record_id TEXT NOT NULL);
+CREATE TABLE execution_matches(match_id TEXT PRIMARY KEY, buy_fill_id TEXT NOT NULL REFERENCES fills, sell_fill_id TEXT NOT NULL REFERENCES fills, match_at TEXT NOT NULL, cross_reference TEXT);
+CREATE TABLE restrictions(restriction_id TEXT PRIMARY KEY, security_id TEXT NOT NULL REFERENCES securities, account_id TEXT NOT NULL REFERENCES accounts, valid_from TEXT NOT NULL, valid_to TEXT NOT NULL, reason TEXT NOT NULL);
+CREATE TABLE public_events(event_id TEXT PRIMARY KEY, security_id TEXT NOT NULL REFERENCES securities, event_type TEXT NOT NULL, event_at TEXT NOT NULL, known_from TEXT NOT NULL, source_url TEXT NOT NULL, time_precision TEXT NOT NULL);
+CREATE TABLE alert_features(alert_id TEXT PRIMARY KEY REFERENCES alerts, features_json TEXT NOT NULL, rule_version TEXT NOT NULL);
+CREATE TABLE policies(policy_id TEXT PRIMARY KEY, version TEXT NOT NULL, effective_from TEXT NOT NULL, content TEXT NOT NULL);

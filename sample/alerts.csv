@@ -1,0 +1,4 @@
+alert_id,source_event_id,rule,detected_at,cutoff_at,account_id
+TS-1042,SURV-EVT-1042,pre_announcement,2025-05-29T12:05:00Z,2025-05-29T12:10:00Z,A-01
+TS-1043,SURV-EVT-1043,size_outlier,2025-05-29T12:05:00Z,2025-05-29T12:10:00Z,A-02
+TS-1044,SURV-EVT-1044,provenance_conflict,2025-05-29T12:05:00Z,2025-05-29T12:10:00Z,A-03

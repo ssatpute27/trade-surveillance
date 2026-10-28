@@ -1,0 +1,27 @@
+.env
+.venv/
+data/
+__pycache__/
+.pytest_cache/
+*.pyc
+/sample/review.sqlite3
+
+chatgpt-ui/node_modules/
+
+tools/tunnel-client/
+.vercel
+.env*
+!.env.example
+
+# Local artifacts, generated results and developer tools
+.DS_Store
+.slide-build/
+tmp/
+output/
+exports/
+*.zip
+chatgpt-skills-installed.png
+evals/latest_results.json
+evals/platform_report_review/graded_results.json
+evals/platform_report_review/platform.json
+evals/platform_report_review/reports-*.jsonl

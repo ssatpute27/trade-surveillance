@@ -1,0 +1,7 @@
+account_id,name,account_type,purpose
+A-01,Event Book A,internal,Sector and event strategies
+A-02,Cedar Pension,institutional,Index tracking portfolio
+A-03,Elm Asset Management,institutional,Discretionary equity portfolio
+A-04,Liquidity Book,internal,Inventory management
+A-05,Birch Insurance,institutional,Periodic portfolio allocation
+A-06,Event Book B,internal,Sector strategies

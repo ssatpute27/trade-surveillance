@@ -1,0 +1,90 @@
+{
+  "dataset_kind": "public_daily_context_with_simulated_broker_activity",
+  "seed": 1042,
+  "market_start": "2025-03-06",
+  "market_end": "2025-05-30",
+  "trading_sessions": 60,
+  "counts": {
+    "desks": 4,
+    "traders": 24,
+    "accounts": 40,
+    "securities": 30,
+    "sessions": 60,
+    "market_daily": 1800,
+    "market_bars": 702000,
+    "orders": 40000,
+    "order_events": 83119,
+    "fills": 150000,
+    "opening_positions": 1200,
+    "account_ownership": 40,
+    "mandates": 2088,
+    "venue_orders": 108,
+    "book_snapshots": 108,
+    "customer_instructions": 18908,
+    "execution_matches": 72,
+    "restrictions": 4,
+    "public_events": 1,
+    "evidence": 7016,
+    "evidence_scope": 7052,
+    "alerts": 141,
+    "alert_orders": 406,
+    "alert_features": 141,
+    "policies": 8,
+    "investigation_cases": 105,
+    "case_alerts": 141
+  },
+  "source_market_cache_sha256": "e67b5bf3217d2f27cfc3aa83e70f9216f3083b5b438a783d7dbf0074ac8cc502",
+  "order_sides": {
+    "buy": 20120,
+    "sell": 19880
+  },
+  "order_types": {
+    "limit": 27497,
+    "market": 12503
+  },
+  "execution_strategies": {
+    "TWAP": 7832,
+    "VWAP": 13964,
+    "manual": 12286,
+    "participation": 5918
+  },
+  "alerts_by_family": {
+    "authorization_restriction": 13,
+    "coordinated_trading": 12,
+    "front_running": 13,
+    "marking_close": 12,
+    "pre_announcement": 15,
+    "size_outlier": 52,
+    "spoofing_layering": 12,
+    "wash_self_trade": 12
+  },
+  "authored_episodes": 96,
+  "checks": {
+    "foreign_keys": true,
+    "target_order_count": true,
+    "target_execution_count": true,
+    "all_eight_alert_families_detected": true,
+    "all_authored_episodes_detected": true,
+    "all_alerts_grouped_once": true,
+    "no_overfills": true,
+    "terminal_states_reconcile": true,
+    "fills_follow_acceptance_and_precede_terminal_state": true,
+    "fills_in_open_sessions": true,
+    "prices_respect_effective_limits": true,
+    "execution_prices_inside_sourced_daily_range": true,
+    "simulated_minute_bars_reconcile_daily_context": true,
+    "broker_execution_volume_within_minute_budget": true,
+    "no_unfunded_short_sales": true,
+    "matched_execution_legs_reconcile": true,
+    "private_scenario_truth_not_in_source_schema": true
+  },
+  "limitations": [
+    "Market daily OHLC/volume is sourced; intraday paths, depth, individual orders, fills and private evidence are simulated.",
+    "Intraday paths are conditioned on the complete historical daily bar and cannot be used to claim predictive performance.",
+    "Market-order price_limit_cents is an internal protection collar, not an exchange limit order.",
+    "Venue-level detail exists for curated spoofing episodes; this is not a full exchange matching engine.",
+    "Ordinary communications use templated text; market impact, queue position and routing economics are not calibrated.",
+    "The eight demo rules are illustrative alert candidates, not validated regulatory surveillance coverage.",
+    "The 96 authored episodes are not a statistically representative benchmark; their expected review routes are not legal findings."
+  ]
+}

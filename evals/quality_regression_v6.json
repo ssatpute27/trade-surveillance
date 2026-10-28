@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "CASE-9732738F",
+    "run_id": "660261f9-ed1f-413a-b7a0-b14c1692e8b9",
+    "revision": 2,
+    "status": "ready_for_review",
+    "error": null,
+    "assessment": "inconclusive",
+    "recommendation": "request_more_evidence",
+    "summary": "A newly submitted demonstration document claims authority for the 30,000-share AMZN order (O-0000346), describing a portfolio allocation, client signature, and supervisor acknowledgment. This matches order details, but the authority gap is only potentially addressed: the extract's authenticity is unverified, no original instruction or system-captured approval exists, and it is not an authenticated bank record."
+  },
+  {
+    "case_id": "CASE-02E115C8",
+    "run_id": "3c97ab5d-42c9-4fe4-b3d7-f2757ac587d4",
+    "revision": 2,
+    "status": "ready_for_review",
+    "error": null,
+    "assessment": "inconclusive",
+    "recommendation": "request_more_evidence",
+    "summary": "Matched MSFT buy and sell orders were executed between accounts A-04 and A-12, which have different beneficial owners. Authority records for the orders note no mandate, and no approved crossing instruction is attached. Per operations, missing portfolio instructions or strategy documentation must be requested; available extracts do not allow verification of authority or intent."
+  },
+  {
+    "case_id": "CASE-290D2D20",
+    "run_id": "cf88113c-732e-4b2a-bc18-b944c1d83c4d",
+    "revision": 2,
+    "status": "ready_for_review",
+    "error": null,
+    "assessment": "inconclusive",
+    "recommendation": "request_more_evidence",
+    "summary": "A large, end-of-day NVDA buy (O-0000264, 1,422,544 shares) was executed manually, fully within the final five minutes\u2014massively exceeding baseline activity (median 378 shares). No signed mandate, instruction, or documented strategy justifies this activity in available records. Benchmark and rationale documentation are missing. While suspicious for both size and timing, explicit evidence of misconduct, price influence, or inside information is not established. Additional authority, instruction, and strategy/context documentation are required."
+  },
+  {
+    "case_id": "CASE-0088C625",
+    "run_id": "71535677-6c5a-4f3b-a104-c37a39357bb9",
+    "revision": 11,
+    "status": "manual_review",
+    "error": "Draft failed citation or support checks after one repair",
+    "assessment": null,
+    "recommendation": null,
+    "summary": null
+  },
+  {
+    "case_id": "CASE-0088C625",
+    "run_id": "c1e4da00-334d-4bcb-add1-ac0a8f7f9657",
+    "revision": 12,
+    "status": "ready_for_review",
+    "error": null,
+    "assessment": "concerning",
+    "recommendation": "escalate",
+    "summary": "AAPL orders for account A-05 show repeated cycles where large, rapidly canceled buy layers coincided with small executed sell orders. These layered buy orders were far above the trader's historical size and were not filled. A call transcript describes an approved strategy, but no mandate or direct instruction is documented for these specific orders."
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "escalate"
+  short_description: "Escalate a case through analyst approval"
+  default_prompt: "Use $escalate to prepare an escalation for CASE-0088C625."

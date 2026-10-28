@@ -1,0 +1,31 @@
+security_id,symbol,issuer,sector,liquidity_tier
+AAPL,AAPL,Apple Inc.,Technology,large_cap
+AMD,AMD,"Advanced Micro Devices, Inc.",Technology,large_cap
+AMZN,AMZN,"Amazon.com, Inc.",Consumer Discretionary,large_cap
+AVGO,AVGO,Broadcom Inc.,Technology,large_cap
+BAC,BAC,Bank of America Corporation,Financials,large_cap
+CAT,CAT,Caterpillar Inc.,Industrials,large_cap
+COST,COST,Costco Wholesale Corporation,Consumer Staples,large_cap
+CVX,CVX,Chevron Corporation,Energy,large_cap
+DIS,DIS,The Walt Disney Company,Communication Services,large_cap
+GE,GE,GE Aerospace,Industrials,large_cap
+GOOGL,GOOGL,Alphabet Inc.,Communication Services,large_cap
+GS,GS,"The Goldman Sachs Group, Inc.",Financials,large_cap
+HD,HD,"The Home Depot, Inc.",Consumer Discretionary,large_cap
+JNJ,JNJ,Johnson & Johnson,Health Care,large_cap
+JPM,JPM,JPMorgan Chase & Co.,Financials,large_cap
+KO,KO,The Coca-Cola Company,Consumer Staples,large_cap
+LLY,LLY,Eli Lilly and Company,Health Care,large_cap
+MA,MA,Mastercard Incorporated,Financials,large_cap
+META,META,"Meta Platforms, Inc.",Communication Services,large_cap
+MS,MS,Morgan Stanley,Financials,large_cap
+MSFT,MSFT,Microsoft Corporation,Technology,large_cap
+NVDA,NVDA,NVIDIA Corporation,Technology,large_cap
+ORCL,ORCL,Oracle Corporation,Technology,large_cap
+PFE,PFE,Pfizer Inc.,Health Care,large_cap
+PG,PG,The Procter & Gamble Company,Consumer Staples,large_cap
+TSLA,TSLA,"Tesla, Inc.",Consumer Discretionary,large_cap
+UNH,UNH,UnitedHealth Group Incorporated,Health Care,large_cap
+V,V,Visa Inc.,Financials,large_cap
+WMT,WMT,Walmart Inc.,Consumer Staples,large_cap
+XOM,XOM,ExxonMobil Holdings Corporation,Energy,large_cap
