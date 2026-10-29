@@ -81,8 +81,8 @@ test('historical matches appear even when the report does not cite the reference
     prior_case_id:'REF-2025-001',text:'Short-lived orders overlapped opposite-side executions.',
     origin:'authored_synthetic_reference_case',closed_at:'2025-02-20',
     retrieval:{method:'OpenAI embeddings + cosine similarity',model:'text-embedding-3-small'}}];
-  const html=run('investigationEvidenceStep(a,c,3)');
-  assert.ok(html.includes('Similar historical cases found'));
+  const html=run('assessmentAreaSummaries()');
+  assert.ok(html.includes('<h4>Similar historical cases</h4>'));
   assert.ok(html.includes('REF-2025-001'));
   assert.ok(html.includes('View matched case details'));
   assert.ok(html.includes('Fictional demo reference'));
@@ -91,9 +91,12 @@ test('historical matches appear even when the report does not cite the reference
 });
 
 test('historical cards do not expose denied source text and escape reference content',()=>{
-  const {run}=environment();
-  assert.equal(run("historicalCaseMatches([{source_type:'prior_case',status:'access_denied',text:'SECRET'}])"),'');
-  const html=run("historicalCaseMatches([{source_type:'prior_case',status:'available',text:'<script>bad</script>'}])");
+  const {context,run}=environment();
+  context.investigation.events=[{kind:'tool_completed',payload:{tool:'retrieve_prior_cases',evidence_ids:['PRIOR-1']}}];
+  context.investigation.evidence=[{evidence_id:'PRIOR-1',source_type:'prior_case',status:'access_denied',text:'SECRET'}];
+  assert.ok(!run('assessmentAreaSummaries()').includes('SECRET'));
+  context.investigation.evidence[0]={evidence_id:'PRIOR-1',source_type:'prior_case',status:'available',text:'<script>bad</script>'};
+  const html=run('assessmentAreaSummaries()');
   assert.ok(!html.includes('<script>'));
   assert.ok(html.includes('&lt;script&gt;'));
 });
