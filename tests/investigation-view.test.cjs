@@ -74,6 +74,30 @@ test('a saved report does not imply a human decision or checks that did not run'
   assert.equal(run('investigationStepStatus(2).label'),'Not recorded');
 });
 
+test('historical matches appear even when the report does not cite the reference',()=>{
+  const {context,run}=environment();
+  context.investigation.events=[{kind:'tool_completed',payload:{tool:'retrieve_prior_cases',evidence_ids:['PRIOR-1']}}];
+  context.investigation.evidence=[{evidence_id:'PRIOR-1',source_type:'prior_case',status:'available',
+    prior_case_id:'REF-2025-001',text:'Short-lived orders overlapped opposite-side executions.',
+    origin:'authored_synthetic_reference_case',closed_at:'2025-02-20',
+    retrieval:{method:'OpenAI embeddings + cosine similarity',model:'text-embedding-3-small'}}];
+  const html=run('investigationEvidenceStep(a,c,3)');
+  assert.ok(html.includes('Similar historical cases found'));
+  assert.ok(html.includes('REF-2025-001'));
+  assert.ok(html.includes('View matched case details'));
+  assert.ok(html.includes('Fictional demo reference'));
+  assert.ok(html.includes('linked orders and executions are not attached'));
+  assert.ok(html.includes('text-embedding-3-small'));
+});
+
+test('historical cards do not expose denied source text and escape reference content',()=>{
+  const {run}=environment();
+  assert.equal(run("historicalCaseMatches([{source_type:'prior_case',status:'access_denied',text:'SECRET'}])"),'');
+  const html=run("historicalCaseMatches([{source_type:'prior_case',status:'available',text:'<script>bad</script>'}])");
+  assert.ok(!html.includes('<script>'));
+  assert.ok(html.includes('&lt;script&gt;'));
+});
+
 test('queued and manual-attention cases have no fabricated final recommendation',()=>{
   const {context,run}=environment();
   context.investigation.report=null;
