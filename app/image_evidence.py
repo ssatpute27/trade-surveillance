@@ -54,6 +54,7 @@ def previews(ctx,run_id=None):
     included={r.get('image_id') for r in rt.recalled(run_id).values() if r.get('source_type')=='image_reading'} if run_id else set()
     result=[]
     for r in eligible(ctx):
+        if not r.get('active',True):continue
         cached=rt.meta_get(cache_key(r))
         result.append({k:r[k] for k in ('image_id','title','sha256','source_evidence_id','origin','limitation','rendered_at')}|
           {'image_url':f"/api/cases/{ctx['case_id']}/images/{r['image_id']}.png",'reading':cached,'included_in_assessment':r['image_id'] in included})
@@ -100,7 +101,7 @@ def read_image(case_id,image_id,client,run_id=None):
         return cached|{'cache_hit':hit}
 
 def review_for_agent(tool,query):
-    records=eligible(tool.ctx)
+    records=[r for r in eligible(tool.ctx) if r.get('active',True)]
     if not records:return [tool.doc('image_coverage','No eligible image is attached to this case; this does not establish absence of other images.',status='unavailable')]
     results=[]
     for record in records[:3]:

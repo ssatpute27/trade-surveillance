@@ -17,7 +17,9 @@ def lines(draw,text,x,y,width=73,size=26,color='#203b46'):
 
 def build():
  FOLDER.mkdir(parents=True,exist_ok=True);records=[]
- specs=[('CASE-0088C625','CHAT-FLAG-CASE-0088C625','Apple desk conversation'),('CASE-52074E40','E-000114','NVIDIA trade instruction')]
+ index=FOLDER.parent/'images.json'
+ previous=json.loads(index.read_text()) if index.exists() else []
+ specs=[('CASE-0088C625','CHAT-DESK-CASE-0088C625','Apple desk conversation'),('CASE-52074E40','E-000114','NVIDIA trade instruction')]
  for cid,eid,title in specs:
   ctx=context(cid);source=next(r for r in EvidenceTools('render-only',cid,None).records(['communication','mandate']) if r['evidence_id']==eid and r['status']=='available')
   metadata=json.loads(source['metadata_json']);im=Image.new('RGB',(1280,1100),'#f2f6f7');draw=ImageDraw.Draw(im)
@@ -41,8 +43,12 @@ def build():
   draw.line((48,footer,1232,footer),fill='#bacdd2',width=2)
   lines(draw,'DERIVED RENDERING: same evidence as the source record, not independent corroboration. Verify text, timestamps and authority against the original record.',48,footer+20,width=97,size=21,color='#52676b')
   im=im.crop((0,0,1280,min(1100,footer+135)))
-  image_id='IMG-'+cid.removeprefix('CASE-');path=FOLDER/(image_id+'.png');im.save(path)
+  image_id='IMG-'+cid.removeprefix('CASE-')+('-DESK' if eid.startswith('CHAT-DESK-') else '');path=FOLDER/(image_id+'.png');im.save(path)
   records.append({'image_id':image_id,'case_id':cid,'source_evidence_id':eid,'title':title,'filename':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'data_cutoff':ctx['cutoff'],'rendered_at':datetime.now(timezone.utc).isoformat(),'origin':'synthetic_source_rendering','limitation':'Fictional source rendered into an image. The image and paired text are the same evidence, not independent corroboration. Document authenticity is unverified.'})
   print(image_id,path)
- (FOLDER.parent/'images.json').write_text(json.dumps(records,indent=2))
+ current_ids={r['image_id'] for r in records}
+ for old in previous:
+  if old['image_id'] not in current_ids:
+   records.append(old|{'active':False})
+ index.write_text(json.dumps(records,indent=2))
 if __name__=='__main__':build()

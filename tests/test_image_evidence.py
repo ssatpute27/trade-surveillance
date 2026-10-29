@@ -55,6 +55,18 @@ def test_eligibility_requires_available_paired_source():
         assert im.eligible(ctx|{'cutoff':'1900-01-01T00:00:00Z'})==[]
 
 
+def test_retired_image_remains_resolvable_but_is_not_a_current_preview(monkeypatch):
+    old={'image_id':'IMG-OLD','active':False}
+    new={'image_id':'IMG-NEW','title':'Apple desk conversation','sha256':'new-hash',
+         'source_evidence_id':'CHAT-DESK','origin':'synthetic_source_rendering',
+         'limitation':'Fictional rendering.','rendered_at':'2026-10-28'}
+    monkeypatch.setattr(im,'eligible',lambda _: [old,new])
+    monkeypatch.setattr(rt,'meta_get',lambda _: None)
+    previews=im.previews({'case_id':'CASE-0088C625'})
+    assert [r['image_id'] for r in previews]==['IMG-NEW']
+    assert not previews[0]['included_in_assessment']
+
+
 def test_agent_retrieves_image_and_paired_source_without_rewriting_case(tmp_path,monkeypatch):
     monkeypatch.setattr(settings,'runtime_path',str(tmp_path/'runtime.sqlite3'));rt.init()
     from app.evidence_tools import EvidenceTools

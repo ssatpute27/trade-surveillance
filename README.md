@@ -112,6 +112,8 @@ Six demonstration samples now have AI-generated audio re-enactments of existing 
 
 Asset preparation: `.venv/bin/python -m scripts.prepare_investigation_archive`. Configure `TRANSCRIPTION_MODEL=whisper-1` and `MAX_TOOL_CALLS=24` (defaults). OpenAI TTS generates the clearly labeled demo voice; transcription is performed by an actual API call during investigation, never copied from the authored script. No production audio ingestion integration is included.
 
+The Apple screenshot now renders a separate fictional written exchange (`CHAT-DESK-CASE-0088C625`) about displayed buying interest and sell execution priorities. Its wording differs from the audio, which retains the original `CHAT-FLAG-CASE-0088C625` dialogue and provenance. Both are authored demo evidence, not independent real-world corroboration. Fresh source generation includes the new desk exchange; existing populations can add it with `python -m scripts.add_apple_desk_chat`, then render with `python -m scripts.build_image_evidence`. Earlier image artifacts remain available for historical citations while current previews use the new desk conversation.
+
 
 To select an audio demo, open **Analyst review → All evidence → With recorded calls**. The filter lists only cases whose latest investigation actually retrieved a transcript. Case rows also carry a Recorded call label.
 

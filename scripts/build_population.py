@@ -605,6 +605,8 @@ def main():
         add_threads(temp)
         from scripts.add_flagged_chats import add_flagged
         add_flagged(temp)
+        from scripts.add_apple_desk_chat import add as add_apple_desk_chat
+        add_apple_desk_chat(temp)
         manifest=pop.export(checks);pop.db.commit();pop.db.close();temp.replace(out)
         print(json.dumps(manifest,indent=2),flush=True)
     finally:
