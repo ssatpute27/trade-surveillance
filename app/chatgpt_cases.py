@@ -183,6 +183,12 @@ def consume_proposal(c,pid,token,case_id,run,action,*,host_approved=False):
     if row['case_id']!=case_id or json.loads(row['action_json'])!=action.model_dump():raise HTTPException(409,'Proposal does not match decision')
     if row['status']=='committed':
         result=json.loads(row['result_json'])
+        # A demo reset or later disposition can supersede a previously saved
+        # decision. Replaying its receipt must not claim the old status is current.
+        if action.action in ('escalate','mark_reviewed') and (
+            row['run_id']!=run['run_id'] or run['status']!=result['status']
+        ):
+            raise HTTPException(409,'This saved decision no longer matches the current case. Retrieve the latest assessment and prepare a new decision.')
         if result.get('packet_id'):
             packet=c.execute('SELECT pdf_status,delivery_status FROM escalation_packets WHERE id=?',(result['packet_id'],)).fetchone()
             if packet:result.update(dict(packet))

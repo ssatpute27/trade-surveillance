@@ -148,3 +148,24 @@ def test_native_write_rejects_expired_proposal(case):
     with pytest.raises(HTTPException,match='expired'):
         cases.submit_from_host(p['proposal_id'],case['case_id'],case['run_id'],'mark_reviewed',note)
     assert rt.details(case['run_id'])['status']=='ready_for_review'
+
+
+def test_saved_escalation_cannot_report_success_after_demo_reset(case):
+    note='Escalate unresolved authority for manager review.'
+    proposal,_=cases.propose(case['case_id'],case['run_id'],'escalate',note)
+    args=(proposal['proposal_id'],case['case_id'],case['run_id'],'escalate',note)
+    assert cases.submit_from_host(*args)['status']=='escalated'
+    rt.update(case['run_id'],status='ready_for_review')
+    with rt.db() as c:c.execute('DELETE FROM manager_cases WHERE case_id=?',(case['case_id'],))
+    with pytest.raises(HTTPException,match='prepare a new decision'):
+        cases.submit_from_host(*args)
+    assert rt.details(case['run_id'])['status']=='ready_for_review'
+    fresh,_=cases.propose(case['case_id'],case['run_id'],'escalate',note)
+    result=cases.submit_from_host(fresh['proposal_id'],case['case_id'],case['run_id'],'escalate',note)
+    assert result['submitted'] and result['status']=='escalated'
+    from app.server import workspace
+    visible=next(a for a in workspace()['alerts'] if a['id']==case['case_id'])
+    assert visible['status']=='escalated'
+    assert visible['manager_review']['status']=='awaiting_manager'
+    with rt.db() as c:
+        assert c.execute('SELECT count(*) FROM reviews WHERE run_id=?',(case['run_id'],)).fetchone()[0]==2
