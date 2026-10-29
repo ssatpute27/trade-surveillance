@@ -85,9 +85,19 @@ test('historical matches appear even when the report does not cite the reference
   assert.ok(html.includes('<h4>Similar historical cases</h4>'));
   assert.ok(html.includes('REF-2025-001'));
   assert.ok(html.includes('View matched case details'));
-  assert.ok(html.includes('Fictional demo reference'));
+  assert.ok(!html.includes('Fictional demo reference'));
   assert.ok(html.includes('linked orders and executions are not attached'));
   assert.ok(html.includes('text-embedding-3-small'));
+});
+
+test('historical card simplifies demo boilerplate without changing the saved source',()=>{
+  const {context,run}=environment();
+  context.source={prior_case_id:'REF-2025-001',origin:'authored_synthetic_reference_case',
+    text:'AUTHORED SYNTHETIC HISTORICAL REFERENCE — not an actual analyst decision. REF-2025-001: Displayed-order cancellations. Fictional outcome: Escalated for specialist review. The fictional reviewer requested venue records. This analogy is not evidence of facts or permission in the current case.'};
+  const original=context.source.text;
+  assert.equal(run('historicalReferenceSummary(source)'),
+    'Displayed-order cancellations. The reviewer requested venue records.');
+  assert.equal(context.source.text,original);
 });
 
 test('historical cards do not expose denied source text and escape reference content',()=>{
