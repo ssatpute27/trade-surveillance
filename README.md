@@ -1,5 +1,7 @@
 # AI Trade Surveillance Investigation
 
+For the interview walkthrough, ownership map, code tour and talk track, see [What I built — Demo guide](docs/DEMO_GUIDE.md).
+
 A working local analyst application backed by a live OpenAI investigation agent. Existing surveillance rules produce alerts; the agent investigates grouped cases automatically, prepares a cited draft, and notifies the analyst. Analysts alone escalate, request more evidence, or mark a case reviewed.
 
 The source population contains 40,000 parent orders, 150,000 executions, 141 rule alerts and 105 grouped cases across eight alert types. Real stock symbols and sourced daily market data provide public context. Private orders, communications, participants, intraday paths, order books, and bank policies are synthetic.
