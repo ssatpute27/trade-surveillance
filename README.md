@@ -1,6 +1,6 @@
 # AI Trade Surveillance Investigation
 
-For the interview walkthrough, ownership map, code tour and talk track, see [What I built — Demo guide](docs/DEMO_GUIDE.md).
+For the architecture, data flow, agent internals, integrations and operations, see the [App build guide](docs/BUILD_GUIDE.md). The separate [Demo guide](docs/DEMO_GUIDE.md) covers presentation and walkthrough notes.
 
 A working local analyst application backed by a live OpenAI investigation agent. Existing surveillance rules produce alerts; the agent investigates grouped cases automatically, prepares a cited draft, and notifies the analyst. Analysts alone escalate, request more evidence, or mark a case reviewed.
 
